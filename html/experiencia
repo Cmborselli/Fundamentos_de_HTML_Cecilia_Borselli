@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width = device-width; user-scalable=no">
+    <svg width="200" height="180">
+    <ellipse cx="100" cy=100 rx="85" ry="55" fill="#184fdd" stroke="black" stroke-width="2"/>
+    <text fill="rgb(246, 249, 248)" font-size="50" font-family="Cooper Black" x=40 y=120>CmB</text>
+    </svg>
+</head>
+<body>
+    <h1>CURRÍCULUM VITAE</h1>
+    <h2>Cecilia María Borselli</h2>
+<nav>
+  <ul>
+    <li><a href="file:///C:/Users/cmbor/Desktop/Evaluacion%20Final/index.html">Inicio</a></li>
+    <li><a href="file:///C:/Users/cmbor/Desktop/Evaluacion%20Final/html/educacion">Educación</a></li>
+    <li><a href="file:///C:/Users/cmbor/Desktop/Evaluacion%20Final/html/experiencia">Experiencia</a></li>
+  </ul>
+    <h2>Experiencia</h2>
+    <h3>Video Presentación<h3>
+    <video width="200" controls>
+      <source src="file:///C:/Users/cmbor/Desktop/Evaluacion%20Final/img/cm.mp4" type="video/mp4">
+      <source src="file:///C:/Users/cmbor/Desktop/Evaluacion%20Final/img/cm.mp4" type="video/webm">
+      <source src="file:///C:/Users/cmbor/Desktop/Evaluacion%20Final/img/cm.mp4" type="video/ogg">
+      Tu navegador no soporta video HTML5.
+    </video>
+    <h3>Audio Hobbies<h3>
+    <audio controls>
+      <source src="file:///C:/Users/cmbor/Desktop/Evaluacion%20Final/img/voz_ceci.m4A" type="audio/ogg">
+      <source src="file:///C:/Users/cmbor/Desktop/Evaluacion%20Final/img/voz_ceci.m4A" type="audio/webm">
+      <source src="file:///C:/Users/cmbor/Desktop/Evaluacion%20Final/img/voz_ceci.m4A" type="audio/mpeg">
+      Tu navegador no soporta el audio.
+    </audio>
+  </body><br><br>
+    <footer>@derechos reservados
+      <ul>
+        <li><h3><b>E-mail:</b> cmborselli@gmail.com</h3></li>
+        <li><h3><b>Teléfono:</b> +54-2966-15338229</h3></li>
+        <li><h3><b>Dirección:</b> Río Gallegos-Santa Cruz-Argentina</h3></li>
+      </ul>
+    </footer>
+    </html>

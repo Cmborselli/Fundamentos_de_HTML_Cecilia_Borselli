@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width = device-width; user-scalable=no">
+    <svg width="200" height="180">
+    <ellipse cx="100" cy=100 rx="85" ry="55" fill="#184fdd" stroke="black" stroke-width="2"/>
+    <text fill="rgb(246, 249, 248)" font-size="50" font-family="Cooper Black" x=40 y=120>CmB</text>
+    </svg>
+</head>
+<body>
+    <h1>CURRÍCULUM VITAE</h1>
+    <h2>Cecilia María Borselli</h2>
+<nav>
+  <ul>
+    <li><a href="file:///C:/Users/cmbor/Desktop/Evaluacion%20Final/index.html">Inicio</a></li>
+    <li><a href="file:///C:/Users/cmbor/Desktop/Evaluacion%20Final/html/educacion">Educación</a></li>
+    <li><a href="file:///C:/Users/cmbor/Desktop/Evaluacion%20Final/html/experiencia">Experiencia</a></li>
+  </ul>
+    <h2>Educación</h2>
+    <table>
+      <table border="1">
+        <thead>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        <tr>
+          <td>1991</td>
+          <td>Dr.Julio Ladvocat</td>
+          <td>Río Gallegos</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>NextU</td>
+          <td>Online</td>
+          <td>No</td>
+        </tr>
+      </table>
+    <p>Agregar Educación</p>
+  <form action="script.php" method="post">Año
+     <select name="Año">
+         <option value="2017">2017</option>
+         <option value="2016">2016</option>
+         <option value="2015">2015</option>
+     </select><br><br>
+       Institución: <input type="text" name="Institucion" required/><br><br>
+       Lugar:<input type="text" name="lugar" size="40"/><br>
+       ¿Culminó?<input type="radio" name="si" value="si">Sí
+        <input type="radio" name="no" value="si">No<br>
+        <input type="submit">
+     </form>
+   </body><br><br>
+     <footer>@derechos reservados
+       <ul>
+         <li><h3><b>E-mail:</b> cmborselli@gmail.com</h3></li>
+         <li><h3><b>Teléfono:</b> +54-2966-15338229</h3></li>
+         <li><h3><b>Dirección:</b> Río Gallegos-Santa Cruz-Argentina</h3></li>
+       </ul>
+     </footer>
+     </html>
